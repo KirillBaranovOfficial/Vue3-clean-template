@@ -24,14 +24,26 @@ yarn dev
 yarn build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### Run Unit Tests without watching
 
 ```sh
 yarn test:unit
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Run Hot-Reload Unit Tests
 
 ```sh
-yarn lint
+yarn test:unit-watch
+```
+
+### Get unit tests coverage
+
+```sh
+yarn test:unit-coverage
+```
+
+### Run eslint & fix problems
+
+```sh
+yarn lint:fix
 ```
