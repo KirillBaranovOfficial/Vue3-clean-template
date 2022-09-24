@@ -18,7 +18,7 @@ yarn
 yarn dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Compile and Minify for Production
 
 ```sh
 yarn build
